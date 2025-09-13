@@ -3,7 +3,7 @@ import requests
 
 API_URL = "http://localhost:8000/chat"
 
-st.title("LLM Chatbot with Redis")
+st.title("🦆 Rubber Duckie - Your AI Debugging Companion")
 
 user_id = st.text_input("Enter your user ID", value="default")
 user_message = st.text_input("Enter your message")

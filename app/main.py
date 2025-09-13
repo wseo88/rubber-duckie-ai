@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from app.chat import generate_response
 
-app = FastAPI(title="LLM Chatbot with Redis")
+app = FastAPI(title="🦆 Rubber Duckie - AI Debugging Companion")
 
 class ChatRequest(BaseModel):
     user_id: str

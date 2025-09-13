@@ -1,9 +1,10 @@
-# LLM Chatbot with Redis Memory
+# Rubber Duckie 🦆
 
-A FastAPI-based chatbot that uses OpenAI's GPT models with Redis for conversation memory storage. The project includes both a REST API backend and a Streamlit frontend for easy interaction.
+A FastAPI-based chatbot that uses OpenAI's GPT models with Redis for conversation memory storage. Like a rubber duck for debugging, this chatbot remembers your conversations and helps you think through problems. The project includes both a REST API backend and a Streamlit frontend for easy interaction.
 
 ## Features
 
+- 🦆 **Rubber Duck Debugging**: Your AI companion for thinking through problems
 - 🤖 **OpenAI Integration**: Uses GPT-4o-mini for intelligent responses
 - 💾 **Redis Memory**: Stores conversation history in Redis with in-memory fallback
 - 🚀 **FastAPI Backend**: High-performance REST API
@@ -14,7 +15,7 @@ A FastAPI-based chatbot that uses OpenAI's GPT models with Redis for conversatio
 ## Project Structure
 
 ```
-llm_chatbot/
+rubber-duckie/
 ├── app/
 │   ├── main.py          # FastAPI application
 │   ├── chat.py          # Chat logic and OpenAI integration
@@ -38,7 +39,7 @@ llm_chatbot/
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd llm_chatbot
+   cd rubber-duckie
    ```
 
 2. **Create a virtual environment**
