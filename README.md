@@ -38,7 +38,7 @@ rubber-duckie/
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/wseo88/rubber-duckie-ai.git
    cd rubber-duckie
    ```
 
@@ -118,18 +118,6 @@ The chatbot uses a dual storage approach:
 
 Each user's conversation history is stored separately and limited to the last 5 messages for context.
 
-## Development
-
-### Running Tests
-```bash
-# Add your test commands here when you create tests
-```
-
-### Code Style
-```bash
-# Add linting commands here if you set up linting
-```
-
 ## API Documentation
 
 When the FastAPI server is running, visit:
@@ -158,10 +146,6 @@ When the FastAPI server is running, visit:
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## License
-
-[Add your license here]
 
 ## Support
 
